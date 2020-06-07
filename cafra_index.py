@@ -15,17 +15,10 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("경고누적"):
-        await client.send_message(message.channel, "고유번호를입력해주세요")
-    if message.content.startswith("76561198969579722"):
-        await client.send_message(message.channel, "샌박기존경고"3"회"누적" "8" "시간벤처리됨")
-    if message.content.startswith("76561199028947184"):
-        await client.send_message(message.channel, "샌박기존지속적인룰위반" "8" "벤처리됨")
-    if message.content.startswith("76561199060808072"):
-        await client.send_message(message.channel, "서바이벌룰위반경고" "1" "회입니다")
-    if message.content.startswith("76561199028524034"):
-        await client.send_message(message.channel, "초식전투룰위반경고" "1" "회")
-
+    if message.content.startswith("hi"):
+        await client.send_message(message.channel, "HI")
+    if message.content.startswith("아사들"):
+        await client.send_message(message.channel, "왜불러")
                               
                               
 access_token = os.environ["BOT_TOKEN"]
