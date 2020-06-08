@@ -28,7 +28,7 @@ async def on_message(message):
     if message.content.startswith("76561198993260318"):
         await client.send_message(message.channel, "샌박경고누적8시간벤")
     if message.content.startswith("76561198927513483"):
-        await client.send_message(message.channel, "샌박경고누적12시간벤및및욕설72벤") 
+        await client.send_message(message.channel, "샌박경고누적12시간벤및욕설72벤") 
         
                               
 access_token = os.environ["BOT_TOKEN"]
